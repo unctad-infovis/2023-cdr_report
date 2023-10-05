@@ -50,39 +50,17 @@ function Footer() {
                   <a href="https://vimeo.com/868447493" target="_blank" rel="noreferrer">Kiswahili</a>
                 </li>
               </ul>
-              <h4 className="hidden">Watch the press conference</h4>
-              <div className="iframe_container youtube_iframe hidden">
+              <h4>Watch the press conference</h4>
+              <div className="iframe_container youtube_iframe">
                 <iframe src="https://www.youtube.com/embed/rUR6isHC8MI" title="Commodities And Development Report Press Conference" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
               </div>
-              <h4>Interview with Shamika N. Sirimanne, UNCTAD, Director of Technology and Logistics</h4>
-              <div className="iframe_container youtube_iframe">
-                <iframe src="https://www.youtube.com/embed/IbVRtayUJoo" title="Interview with Shamika N. Sirimanne, UNCTAD, Director of Technology and Logistics" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-              </div>
-              <ul>
-                <li>
-                  <strong>Download:</strong>
-                  {' '}
-                  <a href="https://vimeo.com/868637024" target="_blank" rel="noreferrer">English</a>
-                </li>
-              </ul>
-              <h4>Interview with Jan Hoffman, UNCTAD, Head Trade Logistics Branch</h4>
-              <div className="iframe_container youtube_iframe">
-                <iframe src="https://www.youtube.com/embed/RD57SmYtYG4" title="Interview with Jan Hoffman, UNCTAD, Head Trade Logistics Branch" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-              </div>
-              <ul>
-                <li>
-                  <strong>Download:</strong>
-                  {' '}
-                  <a href="https://vimeo.com/868636911" target="_blank" rel="noreferrer">English</a>
-                </li>
-              </ul>
             </div>
             <div className="footer_content anchor_podcasts" id="anchor_podcasts">
               <h3>Podcasts</h3>
               <p>Listen to the Weekly Tradecast episodes that explore some of the main issues in the report</p>
               <div className="iframe_container">
-                <iframe title="The Weekly Tradecast by UNCTAD" height="150" width="100%" style={{ border: 'none', minWidth: 'min(100%, 430px)' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=qxwhi-14b3a52-pb&btn-skin=009EDB&download=1&font-color=000000&fonts=Verdana&from=pb6admin&logo_link=none&rtl=0&share=1&size=240&skin=ffffff" allowFullScreen />
-                <span className="text"><a href="/podcast/charting-course-shipping-industry-must-balance-uncertainty-investment-and-environment">Shipping industry must balance uncertainty, investment and the environment</a></span>
+                <iframe title="The Weekly Tradecast by UNCTAD" height="150" width="100%" style={{ border: 'none', minWidth: 'min(100%, 430px)' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=nbgha-14ada72-pb&btn-skin=009EDB&download=1&font-color=000000&fonts=Verdana&from=pb6admin&logo_link=none&rtl=0&share=1&size=240&skin=ffffff" allowFullScreen />
+                <span className="text"><a href="/podcast/commodity-conundrum-why-developing-countries-need-add-value-their-exports-raw-materials">Why developing countries need to add value to their exports of raw materials</a></span>
               </div>
               {/* <ul className="podcasts_container">
                 <li>
