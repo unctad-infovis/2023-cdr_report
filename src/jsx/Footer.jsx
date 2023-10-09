@@ -11,7 +11,7 @@ function Footer() {
             <div className="footer_content anchor_videos" id="anchor_videos">
               <h3>Watch the videos</h3>
               <div className="iframe_container youtube_iframe">
-                <iframe src="https://player.vimeo.com/video/872100401?h=f3d1dbd341" title="Commodities And Development Report" width="640" height="640" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/x1cQfSEXUN8?si=aMwyDCUdUSMhohR_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
               </div>
               <ul className="hidden">
                 <li>
@@ -34,7 +34,7 @@ function Footer() {
               <h4>Download the report video</h4>
               <ul>
                 <li>
-                  <a href="video" target="_blank" rel="noreferrer">English</a>
+                  <a href="https://vimeo.com/872519633" target="_blank" rel="noreferrer">English</a>
                   <div className="hidden">
                     {', '}
                     <a href="video" target="_blank" rel="noreferrer">Français</a>
