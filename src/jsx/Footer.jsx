@@ -11,47 +11,50 @@ function Footer() {
             <div className="footer_content anchor_videos" id="anchor_videos">
               <h3>Watch the videos</h3>
               <div className="iframe_container youtube_iframe">
-                <iframe src="https://www.youtube.com/embed/NRFEuRqoR7U" title="Commodities And Development Report" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                <iframe src="https://player.vimeo.com/video/872100401?h=f3d1dbd341" title="Commodities And Development Report" width="640" height="640" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen />
               </div>
-              <ul>
+              <ul className="hidden">
                 <li>
-                  <a href="https://youtu.be/xMTaiLRO8fM" target="_blank" rel="noreferrer">Français</a>
+                  <a href="video" target="_blank" rel="noreferrer">Français</a>
                   {', '}
-                  <a href="https://youtu.be/OIxBxLvDL0Y" target="_blank" rel="noreferrer">Español</a>
+                  <a href="video" target="_blank" rel="noreferrer">Español</a>
                   {', '}
-                  <a href="https://youtu.be/A5mIjaECTBc" target="_blank" rel="noreferrer">العربية</a>
+                  <a href="video" target="_blank" rel="noreferrer">العربية</a>
                   {', '}
-                  <a href="https://youtu.be/DskeZaWUiCA" target="_blank" rel="noreferrer">简体中文</a>
+                  <a href="video" target="_blank" rel="noreferrer">简体中文</a>
                   {', '}
-                  <a href="https://youtu.be/00iFOntZxG0" target="_blank" rel="noreferrer">Русский</a>
+                  <a href="video" target="_blank" rel="noreferrer">Русский</a>
                   {', '}
-                  <a href="https://youtu.be/0EN3au-p81M" target="_blank" rel="noreferrer">Português</a>
+                  <a href="video" target="_blank" rel="noreferrer">Português</a>
                   {', '}
-                  <a href="https://youtu.be/4OOyOL0uGnQ" target="_blank" rel="noreferrer">Kiswahili</a>
+                  <a href="video" target="_blank" rel="noreferrer">Kiswahili</a>
                 </li>
               </ul>
+              <br />
               <h4>Download the report video</h4>
               <ul>
                 <li>
-                  <a href="https://vimeo.com/868447138" target="_blank" rel="noreferrer">English</a>
-                  {', '}
-                  <a href="https://vimeo.com/868447431" target="_blank" rel="noreferrer">Français</a>
-                  {', '}
-                  <a href="https://vimeo.com/868447676" target="_blank" rel="noreferrer">Español</a>
-                  {', '}
-                  <a href="https://vimeo.com/868447013" target="_blank" rel="noreferrer">العربية</a>
-                  {', '}
-                  <a href="https://vimeo.com/868447067" target="_blank" rel="noreferrer">简体中文</a>
-                  {', '}
-                  <a href="https://vimeo.com/868447615" target="_blank" rel="noreferrer">Русский</a>
-                  {', '}
-                  <a href="https://vimeo.com/868447562" target="_blank" rel="noreferrer">Português</a>
-                  {', '}
-                  <a href="https://vimeo.com/868447493" target="_blank" rel="noreferrer">Kiswahili</a>
+                  <a href="video" target="_blank" rel="noreferrer">English</a>
+                  <div className="hidden">
+                    {', '}
+                    <a href="video" target="_blank" rel="noreferrer">Français</a>
+                    {', '}
+                    <a href="video" target="_blank" rel="noreferrer">Español</a>
+                    {', '}
+                    <a href="video" target="_blank" rel="noreferrer">العربية</a>
+                    {', '}
+                    <a href="video" target="_blank" rel="noreferrer">简体中文</a>
+                    {', '}
+                    <a href="video" target="_blank" rel="noreferrer">Русский</a>
+                    {', '}
+                    <a href="video" target="_blank" rel="noreferrer">Português</a>
+                    {', '}
+                    <a href="video" target="_blank" rel="noreferrer">Kiswahili</a>
+                  </div>
                 </li>
               </ul>
-              <h4>Watch the press conference</h4>
-              <div className="iframe_container youtube_iframe">
+              <h4 className="hidden">Watch the press conference</h4>
+              <div className="iframe_container youtube_iframe hidden">
                 <iframe src="https://www.youtube.com/embed/rUR6isHC8MI" title="Commodities And Development Report Press Conference" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
               </div>
             </div>
