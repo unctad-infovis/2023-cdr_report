@@ -11,7 +11,7 @@ function Footer() {
             <div className="footer_content anchor_videos" id="anchor_videos">
               <h3>Watch the videos</h3>
               <div className="iframe_container youtube_iframe">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/x1cQfSEXUN8?si=aMwyDCUdUSMhohR_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/x1cQfSEXUN8?si=aMwyDCUdUSMhohR_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen />
               </div>
               <ul className="hidden">
                 <li>
@@ -55,7 +55,7 @@ function Footer() {
               </ul>
               <h4 className="hidden">Watch the press conference</h4>
               <div className="iframe_container youtube_iframe hidden">
-                <iframe src="https://www.youtube.com/embed/rUR6isHC8MI" title="Commodities And Development Report Press Conference" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                <iframe src="https://www.youtube.com/embed/rUR6isHC8MI" title="Commodities And Development Report Press Conference" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
               </div>
             </div>
             <div className="footer_content anchor_podcasts" id="anchor_podcasts">
